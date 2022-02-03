@@ -85,4 +85,5 @@ app.use(function (req, res) {
     });
 });
 
-http.createServer(app).listen(PORT, process.env.LISTEN_ADDR);
+// http.createServer(app).listen(PORT, process.env.LISTEN_ADDR);
+module.exports = app;
